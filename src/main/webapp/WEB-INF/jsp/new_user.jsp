@@ -14,10 +14,6 @@
     <form:form action="save" method="post" modelAttribute="user">
         <table border="0" cellpadding="5">
             <tr>
-                <td>Id:</td>
-                <td><form:input path="id"/></td>
-            </tr>
-            <tr>
                 <td>First name:</td>
                 <td><form:input path="username"/></td>
             </tr>
